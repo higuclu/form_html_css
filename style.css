@@ -1,0 +1,47 @@
+div.container{
+    padding: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    opacity: 0.9;
+    position: absolute;
+    margin-left: 450px;
+    margin-right: 500px;
+    background-color:rgba(119,136,153,0.09);
+}
+.up{
+    text-align: center ;
+    border-style:none;
+    margin: 5px;
+    padding-left: 5px;
+    border-radius: 20px;
+    background-color:rgba(144, 238, 144,0.8);
+}
+.profile{
+    padding-right: 100px;
+    border-style:hidden;
+    background-size:10% 5% ;
+    margin: 5px;
+    margin-top: -15px;
+    border-radius: 20px;
+    background-color:rgba(144, 238, 144,0.8);
+}
+#form1{
+    border-style: solid;
+    border-color: lightgreen;
+}
+#form2{
+    border-style: solid;
+    border-color: lightgreen;
+}
+#text{
+    border-style: hidden;
+    margin-top: 5px;
+    margin-left: 5px;
+    background-color: rgba(211, 211, 211,0.30);
+}
+.sign{
+    border-style: hidden;
+    margin-top: 5px;
+    background-color: rgba(144, 238, 144,0.8);
+    border-radius: 5px;
+    padding: 5px 106px 5px 85px;
+}

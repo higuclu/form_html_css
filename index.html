@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h2 class="up">Sign Up</h2> <br>
+        <div>
+            <label for="info"> Your Basic Info</label>
+            <form id="form1">
+                <label for="fname">Name:</label><br>
+                <input type="text" id="text"><br>
+                <label for="fname">E mail:</label><br>
+                <input type="text" id="text"><br>
+                <label for="fname">Password:</label><br>
+                <input type="text" id="text"><br>
+                <label for="fname">Age:</label><br>
+
+                <input type="radio" id="age" name="under" value="Under 13">
+                <label for="male">Under 13</label><br>
+                <input type="radio" id="age" name="over" value="Over 13">
+                <label for="female">Over 13</label><br>
+            </form> 
+        </div><br>
+        <div>
+            <form id="form2">
+                <h2 class="profile">Your Profile</h2>
+                <label for="fname">Bio:</label><br>
+                <textarea name="bio" id="text" cols="30" rows="3"></textarea><br>
+                <label for="fname">Job Role:</label><br>
+                <select name="role" id="text">
+                    <option value="frontEnd">Front End Developer</option>
+                    <option value="backEnd">Back End Developer</option>
+                    <option value="Dev">DevOps</option>
+                    <option value="cloud">Cloud Developer</option>
+                </select> <br>
+                <label for="Interests">Interests:</label><br>
+                <input type="checkbox" id="interests" value="Development">
+                <label for="interests">Development</label><br>
+                <input type="checkbox" id="interests" value="Design">
+                <label for="interests">Design</label><br>
+                <input type="checkbox" id="interests" value="Businnes">
+                <label for="interests">Businnes</label><br>
+            </form> 
+            <input type="submit" class="sign" value="Sign Up">
+        </div>
+    </div>
+</body>
+</html>
