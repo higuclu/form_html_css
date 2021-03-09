@@ -6,48 +6,52 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Form</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="container">
-        <h2 class="up">Sign Up</h2> <br>
-        <div>
-            <label for="info"> Your Basic Info</label>
-            <form id="form1">
+        <h2 class="sign" id="h2">Sign Up</h2>
+        <div class="form1">
+            <fieldset>
+                <legend>Your Basic Info</legend>
                 <label for="fname">Name:</label><br>
-                <input type="text" id="text"><br>
-                <label for="fname">E mail:</label><br>
-                <input type="text" id="text"><br>
-                <label for="fname">Password:</label><br>
-                <input type="text" id="text"><br>
-                <label for="fname">Age:</label><br>
-
-                <input type="radio" id="age" name="under" value="Under 13">
-                <label for="male">Under 13</label><br>
-                <input type="radio" id="age" name="over" value="Over 13">
-                <label for="female">Over 13</label><br>
-            </form> 
+                <input type="text" id="input" name="fname"><br><br>
+                <label for="mail">Email:</label><br>
+                <input type="text" id="input" name="lname"><br><br>
+                <label for="pass">Password:</label><br>
+                <input type="password" id="input" name="password"><br><br>
+                <label for="age">Age:</label><br>
+                <input type="radio" value="age">
+                <label for="age">Under 13</label><br>
+                <input type="radio" value="age">
+                <label for="age">Over 13</label>
+            </fieldset>
         </div><br>
-        <div>
-            <form id="form2">
-                <h2 class="profile">Your Profile</h2>
+        <div class="form2">
+            <fieldset>
+                <legend>Your Profile</legend><br>
                 <label for="fname">Bio:</label><br>
-                <textarea name="bio" id="text" cols="30" rows="3"></textarea><br>
-                <label for="fname">Job Role:</label><br>
-                <select name="role" id="text">
-                    <option value="frontEnd">Front End Developer</option>
-                    <option value="backEnd">Back End Developer</option>
-                    <option value="Dev">DevOps</option>
-                    <option value="cloud">Cloud Developer</option>
-                </select> <br>
-                <label for="Interests">Interests:</label><br>
-                <input type="checkbox" id="interests" value="Development">
-                <label for="interests">Development</label><br>
-                <input type="checkbox" id="interests" value="Design">
-                <label for="interests">Design</label><br>
-                <input type="checkbox" id="interests" value="Businnes">
-                <label for="interests">Businnes</label><br>
-            </form> 
-            <input type="submit" class="sign" value="Sign Up">
+                <textarea id="bio" name="Bio" rows="5" cols="45"></textarea> <br><br>
+                <label for="Role">Job Role:</label><br>
+                <input list="role" name="Role" id="input" placeholder="Front End Developer">
+                <datalist id="role">
+                    <option value="Front End Developer">
+                    <option value="Back End Developer">
+                    <option value="DevOps">
+                    <option value="Cloud">
+                    <option value="Full Stack Developer">
+                </datalist><br><br>
+                <label for="checkbox">Interests:</label><br>
+                <input type="checkbox">
+                <label for="checkbox">Development</label><br>
+                <input type="checkbox">
+                <label for="checkbox">Design</label><br>
+                <input type="checkbox">
+                <label for="checkbox">Businness</label><br>
+                  
+            </fieldset><br>
+            <input type="submit" id="button" class="sign" value="Sign Up"><br> 
         </div>
     </div>
 </body>
