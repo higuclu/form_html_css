@@ -6,14 +6,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Form</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
 </head>
 <body>
+    <!-- NavBar -->
+    <div class="topnav">
+        <img src="codingNepal.png">
+        <a href="https://www.codingnepalweb.com/">Home</a>
+        <a href="https://www.codingnepalweb.com/p/about-us.html">About</a>
+        <a href="http://codenamenepal.blogspot.com/">Blogs</a>
+        <a href="https://www.codingnepalweb.com/p/contact-us_74.html">Contact</a>
+        <a href="https://www.codingnepalweb.com/p/contact-us_74.html">Feedback</a>
+        <div class="search-container">
+          <form>
+            <input type="text" placeholder="Search.." name="search">
+            <button type="submit"><i class="fa fa-search"></i></button>
+          </form>
+        </div>
+      </div>
+    <!-- Form -->
     <div class="container">
         <h2 class="sign" id="h2">Sign Up</h2>
         <div class="form1">
-            <fieldset>
+            <!-- Here the fieldset begins -->
+            <fieldset>  
                 <legend>Your Basic Info</legend>
                 <label for="fname">Name:</label><br>
                 <input type="text" id="input" name="fname"><br><br>
