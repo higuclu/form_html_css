@@ -13,65 +13,67 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
 </head>
 <body>
-    <!-- NavBar -->
-    <div class="topnav">
-        <img src="codingNepal.png">
-        <a href="https://www.codingnepalweb.com/">Home</a>
-        <a href="https://www.codingnepalweb.com/p/about-us.html">About</a>
-        <a href="http://codenamenepal.blogspot.com/">Blogs</a>
-        <a href="https://www.codingnepalweb.com/p/contact-us_74.html">Contact</a>
-        <a href="https://www.codingnepalweb.com/p/contact-us_74.html">Feedback</a>
-        <div class="search-container">
-          <form>
-            <input type="text" placeholder="Search.." name="search">
-            <button type="submit"><i class="fa fa-search"></i></button>
-          </form>
+    <div>
+        <!-- NavBar -->
+        <div class="topnav">
+            <img class="img" src="codingNepal.png">
+            <a href="https://www.codingnepalweb.com/">Home</a>
+            <a href="https://www.codingnepalweb.com/p/about-us.html">About</a>
+            <a href="http://codenamenepal.blogspot.com/">Blogs</a>
+            <a href="https://www.codingnepalweb.com/p/contact-us_74.html">Contact</a>
+            <a href="https://www.codingnepalweb.com/p/contact-us_74.html">Feedback</a>
+            <div class="search-container">
+            <form class="form">
+                <input type="text" placeholder="Search.." name="search">
+                <button type="submit"><i class="fa fa-search"></i></button>
+            </form>
+            </div>
         </div>
-      </div>
-    <!-- Form -->
-    <div class="container">
-        <h2 class="sign" id="h2">Sign Up</h2>
-        <div class="form1">
-            <!-- Here the fieldset begins -->
-            <fieldset>  
-                <legend>Your Basic Info</legend>
-                <label for="fname">Name:</label><br>
-                <input type="text" id="input" name="fname"><br><br>
-                <label for="mail">Email:</label><br>
-                <input type="text" id="input" name="lname"><br><br>
-                <label for="pass">Password:</label><br>
-                <input type="password" id="input" name="password"><br><br>
-                <label for="age">Age:</label><br>
-                <input type="radio" value="age">
-                <label for="age">Under 13</label><br>
-                <input type="radio" value="age">
-                <label for="age">Over 13</label>
-            </fieldset>
-        </div><br>
-        <div class="form2">
-            <fieldset>
-                <legend>Your Profile</legend><br>
-                <label for="fname">Bio:</label><br>
-                <textarea id="bio" name="Bio" rows="5" cols="45"></textarea> <br><br>
-                <label for="Role">Job Role:</label><br>
-                <input list="role" name="Role" id="input" placeholder="Front End Developer">
-                <datalist id="role">
-                    <option value="Front End Developer">
-                    <option value="Back End Developer">
-                    <option value="DevOps">
-                    <option value="Cloud">
-                    <option value="Full Stack Developer">
-                </datalist><br><br>
-                <label for="checkbox">Interests:</label><br>
-                <input type="checkbox">
-                <label for="checkbox">Development</label><br>
-                <input type="checkbox">
-                <label for="checkbox">Design</label><br>
-                <input type="checkbox">
-                <label for="checkbox">Businness</label><br>
-                  
-            </fieldset><br>
-            <input type="submit" id="button" class="sign" value="Sign Up"><br> 
+        <!-- Form -->
+        <div class="container">
+            <h2 class="sign" id="h2">Sign Up</h2>
+            <div class="form1">
+                <!-- Here the fieldset begins -->
+                <fieldset>  
+                    <legend>Your Basic Info</legend>
+                    <label for="fname">Name:</label><br>
+                    <input type="text" id="input" name="fname"><br><br>
+                    <label for="mail">Email:</label><br>
+                    <input type="text" id="input" name="lname"><br><br>
+                    <label for="pass">Password:</label><br>
+                    <input type="password" id="input" name="password"><br><br>
+                    <label for="age">Age:</label><br>
+                    <input type="radio" value="age">
+                    <label for="age">Under 13</label><br>
+                    <input type="radio" value="age">
+                    <label for="age">Over 13</label>
+                </fieldset>
+            </div><br>
+            <div class="form2">
+                <fieldset>
+                    <legend>Your Profile</legend><br>
+                    <label for="fname">Bio:</label><br>
+                    <textarea id="bio" name="Bio" rows="5" cols="45"></textarea> <br><br>
+                    <label for="Role">Job Role:</label><br>
+                    <input list="role" name="Role" id="input" placeholder="Front End Developer">
+                    <datalist id="role">
+                        <option value="Front End Developer">
+                        <option value="Back End Developer">
+                        <option value="DevOps">
+                        <option value="Cloud">
+                        <option value="Full Stack Developer">
+                    </datalist><br><br>
+                    <label for="checkbox">Interests:</label><br>
+                    <input type="checkbox">
+                    <label for="checkbox">Development</label><br>
+                    <input type="checkbox">
+                    <label for="checkbox">Design</label><br>
+                    <input type="checkbox">
+                    <label for="checkbox">Businness</label><br>
+                    
+                </fieldset><br>
+                <input type="submit" id="button" class="sign" value="Sign Up"><br> 
+            </div>
         </div>
     </div>
 </body>

@@ -4,6 +4,8 @@
     background-color: rgb(65, 70, 92);
     font-family: Poppins;
     padding: 5px;
+    margin-top: -11px;
+    border-radius: 5px;
 }
 .topnav img{
     float: left;
@@ -60,7 +62,16 @@
 .topnav .search-container button:hover 
 {
     background: #ccc;
+}
+.topnav .form{
+    border: solid 2px black;
+    display: inline-block;
+    float: none;
 } 
+@media screen and (max-width: 750px) {
+    .topnav .search-container, 
+    .topnav a,.topnav .img {float: none;}
+  }
 
 div.container{
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
